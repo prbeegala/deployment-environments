@@ -5,3 +5,10 @@ summary: Azure eShop on Web
 description: Deploys an Azure Function App, Storage Account, and Application Insights
 runner: ARM
 templatePath: azuredeploy.json
+
+parameters:
+  - id: environmentName
+    name: environmentName
+    description: 'Name of the Environment.'
+    type: string
+    required: true
