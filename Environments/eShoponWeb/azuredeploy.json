@@ -66,12 +66,14 @@
     },
     "sqlAdminPassword": {
       "type": "securestring",
+      "defaultValue": "Shiftme@0938",
       "metadata": {
         "description": "SQL Server administrator password"
       }
     },
     "appUserPassword": {
       "type": "securestring",
+      "defaultValue": "Shiftme@0938",
       "metadata": {
         "description": "Application user password"
       }
