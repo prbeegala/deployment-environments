@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=https://github.com/Azure/deployment-environments/releases/download/2022-11-11-preview/manifest.schema.json
-name: FunctionApp
+name: eShopOnWeb-onWebApp-Environment
 version: 1.0.0
-summary: Azure Function App Environment
+summary: Azure eShop on Web
 description: Deploys an Azure Function App, Storage Account, and Application Insights
 runner: ARM
 templatePath: azuredeploy.json
