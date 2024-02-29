@@ -27,7 +27,7 @@
     },
     "resourceGroupName": {
       "type": "string",
-      "defaultValue": ""
+      "defaultValue": "rg-pbe2"
     },
     "webServiceName": {
       "type": "string",
